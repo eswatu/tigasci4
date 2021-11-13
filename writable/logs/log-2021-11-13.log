@@ -1,0 +1,99 @@
+CRITICAL - 2021-11-13 12:24:34 --> Cannot declare class App\Controllers\inputsurat because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-13 12:24:58 --> Cannot declare class App\Controllers\inputsurat because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-13 12:26:14 --> syntax error, unexpected '>', expecting end of file
+#0 C:\xampp\htdocs\projectroot\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projectroot\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Inpu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Inpu...')
+#3 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(13): spl_autoload_call('App\\Models\\Inpu...')
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\suratmasuk->index()
+#5 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\suratmasuk))
+#6 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 12:26:29 --> syntax error, unexpected '>', expecting end of file
+#0 C:\xampp\htdocs\projectroot\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projectroot\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Inpu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Inpu...')
+#3 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(13): spl_autoload_call('App\\Models\\Inpu...')
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\suratmasuk->index()
+#5 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\suratmasuk))
+#6 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-13 12:27:03 --> syntax error, unexpected '>', expecting end of file
+#0 C:\xampp\htdocs\projectroot\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projectroot\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Inpu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Inpu...')
+#3 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(13): spl_autoload_call('App\\Models\\Inpu...')
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#5 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#6 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-13 12:27:28 --> No database selected
+CRITICAL - 2021-11-13 12:27:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\projectroot\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#3 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-13 12:29:44 --> No database selected
+CRITICAL - 2021-11-13 12:29:44 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\projectroot\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#3 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-13 12:29:51 --> No database selected
+CRITICAL - 2021-11-13 12:29:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\projectroot\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#3 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-13 12:30:07 --> No database selected
+CRITICAL - 2021-11-13 12:30:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\projectroot\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#3 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-13 12:30:15 --> No database selected
+CRITICAL - 2021-11-13 12:30:15 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\projectroot\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#3 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-13 12:30:20 --> No database selected
+CRITICAL - 2021-11-13 12:30:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\projectroot\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#3 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-11-13 12:30:26 --> No database selected
+CRITICAL - 2021-11-13 12:30:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\projectroot\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\projectroot\app\Controllers\suratmasuk.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->index()
+#3 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\projectroot\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projectroot\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
