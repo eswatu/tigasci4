@@ -33,9 +33,9 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'persuratan',
-        'password' => 'suratmasuk',
-        'database' => 'suratmasuk',
+        'username' => 'userdb',
+        'password' => 'rekayasaweb',
+        'database' => 'database',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

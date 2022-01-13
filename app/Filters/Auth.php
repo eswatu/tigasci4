@@ -8,7 +8,6 @@ use CodeIgniter\HTTP\ResponseInterface;
 use Firebase\JWT\JWT;
 use Config\Services;
 
-
 class Auth implements FilterInterface
 {
     /**
